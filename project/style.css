@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,5 +29,72 @@ header a{
     font-weight: 400;
     line-height: normal;
 }
+/*--------------------------section_cross_view----------------------------------*/
+.cross_view{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FBF6F3;
+    height: 892px;
+}
+.cross_view img{
+    margin-top: 67px;
+}
+.cross{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    margin: 177px 0 0 46px;
+}
+.cross h2{
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price{
+    color: #AD0306;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 23px 0 52px 0;
+}
+.cross ul{
+    display: flex;
+    gap: 27px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="radio"] {
+    display: none;
+}
+.cross label{
+    cursor: pointer;
+}
+input[type="radio"]:checked + label{
+    color: #B93536;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A90102;
+}
+.text{
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 62px;
+    width: 324px;
+}
+
+
+
 
 
